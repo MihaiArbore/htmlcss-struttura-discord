@@ -33,6 +33,13 @@
 .debug .Layout3-flex-container{
     background-color: lightgray;
 }
+.debug .Layout5-flex-container{
+   background-color: lightgray;
+}
+.debug .Layout-box5{
+    border: 3px dashed;
+    background-color: green;
+}
 /* region header */
 .hed-flex-conteiner{
     display: flex;
@@ -97,6 +104,16 @@
     height: 500px;
     justify-content: center;
     align-items: center;
+}
+.Layout5-flex-container{
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+.Layout-box5{
+    height: 900px;
+    width: 1200px;
 }
 /* endregion main */
 
