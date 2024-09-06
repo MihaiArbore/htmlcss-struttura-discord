@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* region header */
 .flex-conteiner{
     display: flex;
     background-color: lightskyblue;
@@ -31,3 +32,4 @@
     width: 56%;
     text-align: center;
  }
+ /* endregion header */
