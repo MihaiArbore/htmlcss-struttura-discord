@@ -18,10 +18,16 @@
 .debug nav{
     border: 3px dashed;
     background-color: rgb(255, 145, 0);
-    height: 50%;
+    padding-top:  1%;
+    padding-bottom: 1%;
+
 }
 .logo-L, .logo-R{
-    width: 22%;   
+    width: 22%; 
+    padding: 1%;  
+}
+.logo-L{
+    text-align: left;
 }
 .logo-R{
     text-align: right;
@@ -32,4 +38,5 @@
     width: 56%;
     text-align: center;
  }
+ 
  /* endregion header */
