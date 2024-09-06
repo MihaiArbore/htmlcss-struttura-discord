@@ -19,6 +19,17 @@
     border: 3px dashed;
     background-color: rgb(218, 68, 185);
 }
+.debug .Layout2-flex-container{
+    background-color: white;
+}
+.debug .Layout-box2{
+    border: 3px dashed;
+    background-color: aqua;
+}
+.debug .Layout-box3{
+    border: 3px dashed;
+    background-color: pink;
+}
 /* region header */
 .hed-flex-conteiner{
     display: flex;
@@ -26,12 +37,8 @@
     justify-content: space-around;
     align-items: center ;
     padding-left: 8%;
-    padding-right: 8%;
-    
-    
+    padding-right: 8%; 
 }
-
-
 .logo-L, .logo-R{
     width: 22%; 
     padding: 0 10px;
@@ -68,7 +75,20 @@
     height: 400px;
     width: 1000px;
 }
-
+.Layout2-flex-container{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.Layout-box2{
+    height: 400px;
+    width: 700px
+}
+.Layout-box3{
+    height: 400px;
+    width: 500px
+}
 /* endregion main */
 
 
