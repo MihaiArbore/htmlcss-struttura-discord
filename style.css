@@ -30,6 +30,9 @@
     border: 3px dashed;
     background-color: pink;
 }
+.debug .Layout3-flex-container{
+    background-color: lightgray;
+}
 /* region header */
 .hed-flex-conteiner{
     display: flex;
@@ -88,6 +91,12 @@
 .Layout-box3{
     height: 400px;
     width: 500px
+}
+.Layout3-flex-container{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
 }
 /* endregion main */
 
