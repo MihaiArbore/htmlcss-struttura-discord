@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+.flex-conteiner{
+    display: flex;
+    background-color: lightskyblue;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center ;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+}
+.debug nav{
+    border: 3px dashed;
+    background-color: rgb(255, 145, 0);
+    height: 50%;
+}
+.logo-L, .logo-R{
+    width: 22%;   
+}
+.logo-R{
+    text-align: right;
+    
+    
+}
+.link{
+    width: 56%;
+    text-align: center;
+ }
