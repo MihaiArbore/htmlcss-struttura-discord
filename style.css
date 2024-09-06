@@ -3,10 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*  debug */
+
+.debug .flex-conteiner{
+    background-color: lightskyblue;
+}
+.debug nav{
+    border: 3px dashed;
+    background-color: rgb(255, 145, 0);
+}
 /* region header */
 .flex-conteiner{
     display: flex;
-    background-color: lightskyblue;
     height: 100px;
     justify-content: space-around;
     align-items: center ;
@@ -15,28 +23,31 @@
     
     
 }
-.debug nav{
-    border: 3px dashed;
-    background-color: rgb(255, 145, 0);
-    padding-top:  1%;
-    padding-bottom: 1%;
 
-}
+
 .logo-L, .logo-R{
     width: 22%; 
-    padding: 1%;  
+    padding: 0 10px;
 }
-.logo-L{
-    text-align: left;
+
+.logo-L, .logo-R, .link{
+    display: flex;
+    align-items: center;
+    height: 50%;
 }
+
 .logo-R{
-    text-align: right;
-    
-    
+    display: flex;
+    justify-content: end;
 }
+
 .link{
+    height: 50%;
     width: 56%;
-    text-align: center;
+    justify-content: center;
  }
  
  /* endregion header */
+
+
+
