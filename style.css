@@ -5,21 +5,28 @@
 }
 /*  debug */
 
-.debug .flex-conteiner{
+.debug .hed-flex-conteiner{
     background-color: lightskyblue;
 }
 .debug nav{
     border: 3px dashed;
     background-color: rgb(255, 145, 0);
 }
+.debug .Layout1-flex-container{
+    background-color: rgb(8, 8, 109);
+}
+.debug .Layout-box1{
+    border: 3px dashed;
+    background-color: rgb(218, 68, 185);
+}
 /* region header */
-.flex-conteiner{
+.hed-flex-conteiner{
     display: flex;
     height: 100px;
     justify-content: space-around;
     align-items: center ;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
     
     
 }
@@ -48,6 +55,21 @@
  }
  
  /* endregion header */
+
+ /* region main */
+    /* Layout1 */
+.Layout1-flex-container{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.Layout-box1{
+    height: 400px;
+    width: 1000px;
+}
+
+/* endregion main */
 
 
 
