@@ -40,6 +40,17 @@
     border: 3px dashed;
     background-color: green;
 }
+.debug .Layout6-flex-container{
+    background-color: rgba(29, 26, 26, 0.945);
+}
+.debug .Layout-box6{
+    border: 3px dashed;
+    background-color: rgb(241, 77, 104);
+}
+.debug .Layout-box7{
+    border: 3px dashed white;
+    background-color: rgb(5, 197, 181);
+}
 /* region header */
 .hed-flex-conteiner{
     display: flex;
@@ -85,6 +96,7 @@
     height: 400px;
     width: 1000px;
 }
+    /*Layout2-3-4  */
 .Layout2-flex-container{
     display: flex;
     height: 500px;
@@ -105,6 +117,7 @@
     justify-content: center;
     align-items: center;
 }
+    /* Layout5 */
 .Layout5-flex-container{
     display: flex;
     height: 1000px;
@@ -114,6 +127,22 @@
 .Layout-box5{
     height: 900px;
     width: 1200px;
+}
+    /*Layout6  */
+.Layout6-flex-container{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Layout-box6{
+    height: 550px;
+    width: 400px;
+}
+.Layout-box7{
+    height: 550px;
+    width: 200px;
 }
 /* endregion main */
 
